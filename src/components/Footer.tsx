@@ -30,9 +30,9 @@ const Footer: React.FC = () => {
               </div>
               <span className="text-lg sm:text-xl font-bold text-white">JIDI</span>
             </div>
-            <p className="text-xs sm:text-sm text-slate-400 mb-3 sm:mb-4">
-              "Believe" (Twi). Our logo symbolizes growth.
-            </p>
+                <p className="text-xs sm:text-sm text-slate-400 mb-3 sm:mb-4">
+                  &quot;Believe&quot; (Twi). Our logo symbolizes growth.
+                </p>
             <p className="text-xs sm:text-sm text-slate-400">
               JIDI Institute, Burma Camp, Accra, Ghana
             </p>

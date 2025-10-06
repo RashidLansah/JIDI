@@ -19,8 +19,17 @@ export const NewsCard: React.FC<NewsCardProps> = ({
   onReadMore
 }) => {
   return (
-    <Card image={image} imageAlt={imageAlt}>
+    <Card>
       <div className="flex flex-col h-full">
+        {image && (
+          <div className="mb-4">
+            <img 
+              src={image} 
+              alt={imageAlt || title} 
+              className="w-full h-48 object-cover rounded-t-2xl"
+            />
+          </div>
+        )}
         <div className="mb-3">
           <h3 className="text-lg font-semibold text-white mb-2 line-clamp-2">
             {title}

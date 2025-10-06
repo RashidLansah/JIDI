@@ -1,7 +1,5 @@
 import React from "react";
 
-type Metric = { value: string; label: string };
-
 export interface CaseStudySplitProps {
   logoSrc?: string;
   logoAlt?: string;

@@ -4,10 +4,8 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CaseStudySplit from '@/components/CaseStudySplit';
-import { Section } from '@/components/Section';
 import { Card, CardContent } from '@/components/Card';
 import { Button } from '@/components/Button';
-import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
 
 const scrollToSection = (hash: string) => {
   const element = document.querySelector(hash);
@@ -290,7 +288,7 @@ export default function HomePage() {
           <div className="mb-6 sm:mb-8">
             <h2 className="text-emerald-400 text-sm font-medium tracking-wider uppercase mb-4">Empowering Africa with Ethical AI Infrastructure</h2>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 leading-tight mb-6">
-              Connecting research, policy, and innovation to solve Africa's most pressing challenges.
+              Connecting research, policy, and innovation to solve Africa&apos;s most pressing challenges.
             </h1>
         </div>
 
@@ -311,7 +309,7 @@ export default function HomePage() {
                 </h2>
                 
                 <p className="text-base sm:text-lg text-neutral-300 mb-6 sm:mb-8 leading-relaxed max-w-3xl mx-auto">
-                  JIDI Institute is a nonprofit, independent research hub in Accra, Ghana, dedicated to connecting research, policy, and innovation to solve Africa's most pressing challenges — from health and agriculture to climate resilience and education.
+                  JIDI Institute is a nonprofit, independent research hub in Accra, Ghana, dedicated to connecting research, policy, and innovation to solve Africa&apos;s most pressing challenges — from health and agriculture to climate resilience and education.
                 </p>
             </div>
         </div>
@@ -440,7 +438,7 @@ export default function HomePage() {
                   <h3 className="text-xl sm:text-2xl font-bold text-white">Vision</h3>
                   </div>
                 <p className="text-base sm:text-lg text-neutral-300 leading-relaxed ml-0 sm:ml-11 lg:ml-14">
-                  To become Africa's leading center of excellence for ethical AI and Data Science, where African talent shapes global conversations, solves African problems, and pioneers technology that uplifts humanity.
+                  To become Africa&apos;s leading center of excellence for ethical AI and Data Science, where African talent shapes global conversations, solves African problems, and pioneers technology that uplifts humanity.
                 </p>
                 </div>
           </div>
@@ -488,7 +486,7 @@ export default function HomePage() {
             <h2 className="text-emerald-400 text-sm font-medium tracking-wider uppercase mb-4">Our Focus</h2>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 sm:mb-8">Core focus areas driving impact</h1>
             <p className="text-base sm:text-lg text-neutral-300 max-w-3xl mx-auto leading-relaxed">
-              Through strategic research, capacity building, and policy advocacy, we're creating pathways for African leadership in ethical AI development.
+              Through strategic research, capacity building, and policy advocacy, we&apos;re creating pathways for African leadership in ethical AI development.
           </p>
         </div>
         

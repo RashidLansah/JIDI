@@ -45,7 +45,7 @@ export const EmailSignup: React.FC<EmailSignupProps> = ({
           Thank you for signing up!
         </h3>
         <p className="text-gray-600 text-sm">
-          We'll notify you when the JIDI AI Summit is announced.
+          We&apos;ll notify you when the JIDI AI Summit is announced.
         </p>
       </div>
     );
