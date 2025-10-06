@@ -25,7 +25,7 @@ const InitiativesSection = () => {
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Supporting women and underserved communities in AI through targeted programs and partnerships.
           </p>
-        </div>
+          </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {/* WAIDS Card */}
@@ -38,7 +38,7 @@ const InitiativesSection = () => {
               <div className="absolute bottom-4 right-16 w-20 h-6 bg-emerald-400 rotate-45 rounded-full"></div>
               <div className="absolute top-8 left-1/3 w-6 h-6 bg-emerald-500 rotate-45 rounded-sm"></div>
             </div>
-            
+
             <div className="relative z-10">
               <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">Women in AI & Data Science (WAIDS)</h3>
               <p className="text-base sm:text-lg text-neutral-300 mb-4 sm:mb-6 leading-relaxed">
@@ -83,7 +83,7 @@ const InitiativesSection = () => {
               <div className="absolute bottom-8 right-20 w-24 h-8 bg-emerald-400 rotate-45 rounded-full"></div>
               <div className="absolute top-12 left-1/3 w-8 h-8 bg-emerald-500 rotate-45 rounded-sm"></div>
             </div>
-            
+
             <div className="relative z-10">
               <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">AID Communities</h3>
               <p className="text-base sm:text-lg text-neutral-300 mb-4 sm:mb-6 leading-relaxed">
@@ -113,9 +113,9 @@ const InitiativesSection = () => {
                     </svg>
                   </div>
                   <span className="text-sm sm:text-base text-neutral-300">Local problem-solving focus</span>
-                </div>
+          </div>
               </div>
-            </div>
+              </div>
           </div>
         </div>
       </div>
@@ -132,31 +132,8 @@ export default function HomePage() {
       
       {/* Hero Section */}
       <section className="relative min-h-screen bg-zinc-950 overflow-hidden">
-        {/* Background Graphics */}
+        {/* Background Geometric Shapes */}
         <div className="absolute inset-0 overflow-hidden">
-          {/* Main Radial Pattern */}
-          <div className="absolute top-1/2 left-1/2 w-[800px] h-[800px] opacity-10 transform -translate-x-1/2 -translate-y-1/2 animate-spin" style={{animationDuration: '60s'}}>
-            <div className="w 움직임-full h-full relative">
-              {/* Concentric circles */}
-              <div className="absolute inset-0 border border-neutral-600 rounded-full"></div>
-              <div className="absolute inset-8 border border-neutral-700 rounded-full"></div>
-              <div className="absolute inset-16 border border-neutral-800 rounded-full"></div>
-              <div className="absolute inset-24 border border-neutral-900 rounded-full"></div>
-              
-              {/* Radial lines */}
-              {[...Array(12)].map((_, i) => (
-                <div
-                  key={i}
-                  className="absolute w-full h-px bg-gradient-to-r from-transparent via-neutral-700 to-transparent origin-center"
-                  style={{ transform: `rotate(${i * 30}deg)` }}
-                />
-              ))}
-              
-              {/* Center dot */}
-              <div className="absolute top-1/2 left-1/2 w-4 h-4 bg-neutral-600 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
-          </div>
-          </div>
-
           {/* Top Right Geometric Pattern */}
           <div className="absolute top-20 right-20 opacity-30 hover:opacity-50 transition-opacity duration-300">
             <div className="w-64 h-64 relative">
@@ -179,23 +156,22 @@ export default function HomePage() {
               <div className="absolute top-1/2 left-1/2 w-16 h-16 bg-neutral-400 rotate-45 opacity-20 transform -translate-x-1/2 -translate-y-1/2"></div>
               {/* Medium diamonds */}
               <div className="absolute top-1/4 left-1/4 w-12 h-12 bg-neutral-500 rotate-45 opacity-15 transform -translate-x-1/2 -translate-y-1/2"></div>
-              <div className="absolute top-3/4 right-1/4 w-12 h-12 bg-neutral-500 rotate-45 opacity-15 transform translate-x-1/2 translate-y-1/2"></div>
-              {/* Small diamonds */}
-              <div className="absolute top-1/2 left-12 w-8 h-8 bg-neutral-600 rotate-45 opacity-10"></div>
-              <div className="absolute top-1/2 right-12 w-8 h-8 bg-neutral-600 rotate-45 opacity-10"></div>
+              <div className="absolute bottom-1/4 right-1/4 w-8 h-8 bg-neutral-600 rotate-45 opacity-10 transform -translate-x-1/2 -translate-y-1/2"></div>
             </div>
           </div>
 
-          {/* Floating Geometric Shapes */}
-          <div className="absolute top-1/4 right-1/3 w-24 h-24 opacity-20">
-            <div className="relative">
+          {/* Top Left Square Pattern */}
+          <div className="absolute top-1/4 left-10 opacity-20 hover:opacity-40 transition-opacity duration-300">
+            <div className="w-32 h-32 relative">
               {/* Nested squares */}
-              <div className="absolute inset-0 border border-neutral-400 rotate-45"></div>
-              <div className="absolute inset-2 border border-neutral-500 rotate-45"></div>
-              <div className="absolute inset-4 border border-neutral-600 rotate-45"></div>
+              <div className="absolute inset-0 border border-neutral-400 rotate-12"></div>
+              <div className="absolute inset-2 border border-neutral-500 rotate-12"></div>
+              <div className="absolute inset-4 border border-neutral-600 rotate-12"></div>
+              <div className="absolute inset-6 border border-neutral-700 rotate-12"></div>
               </div>
               </div>
 
+          {/* Bottom Right Nested Squares */}
           <div className="absolute bottom-1/3 right-10 w-32 h-32 opacity-30">
             <div className="relative">
               {/* Nested squares */}
@@ -206,13 +182,13 @@ export default function HomePage() {
               </div>
             </div>
 
-          {/* Additional scattered elements */}
+          {/* Additional scattered elements with animations */}
           <div className="absolute top-32 left-1/4 w-8 h-8 bg-neutral-400 rotate-12 opacity-10 animate-float"></div>
           <div className="absolute top-64 left-1/5 w-6 h-6 bg-neutral-500 rotate-45 opacity-15 animate-float" style={{animationDelay: '1s'}}></div>
           <div className="absolute bottom-32 right-1/4 w-4 h-4 bg-neutral-600 rotate-30 opacity-20 animate-float" style={{animationDelay: '2s'}}></div>
           <div className="absolute bottom-48 right-1/3 w-3 h-3 bg-neutral-700 rotate-60 opacity-25 animate-float" style={{animationDelay: '3s'}}></div>
           
-          {/* New geometric cluster */}
+          {/* Geometric cluster */}
           <div className="absolute top-1/2 left-16 opacity-25">
             <div className="relative">
               <div className="w-12 h-12 border-2 border-neutral-500 rotate-45"></div>
@@ -229,9 +205,14 @@ export default function HomePage() {
               <div className="absolute top-8 left-8 w-24 h-1 bg-gradient-to-r from-transparent via-neutral-600 to-transparent rotate-45"></div>
               </div>
           </div>
+
+          {/* Floating circles */}
+          <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-emerald-400/20 rounded-full animate-pulse-glow"></div>
+          <div className="absolute bottom-1/4 left-1/4 w-12 h-12 bg-emerald-500/30 rounded-full animate-pulse-glow" style={{animationDelay: '1.5s'}}></div>
+          <div className="absolute top-2/3 left-1/2 w-8 h-8 bg-emerald-300/25 rounded-full animate-pulse-glow" style={{animationDelay: '3s'}}></div>
         </div>
 
-        {/* Left Border Image Placeholder */}
+        {/* Left Border Image */}
         <div className="absolute -left-1 sm:-left-2 lg:-left-4 top-0 w-8 sm:w-12 lg:w-20 h-screen z-20">
           <img 
             src="/images/hero-left-border.jpg" 
@@ -249,36 +230,69 @@ export default function HomePage() {
           <div className="hidden w-full h-full bg-gradient-to-b from-emerald-400 via-orange-400 to-blue-400 opacity-30 sm:opacity-50"></div>
           </div>
         
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 min-h-screen relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center w-full">
-            
-            {/* Left Side - Headline */}
-            <div className="pt-16 sm:pt-20 lg:pt-24 relative pl-8 sm:pl-12 lg:pl-20 animate-fade-in-up">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight relative z-10">
-                Empowering Africa Through{' '}
-                <span className="text-emerald-400 hover:text-emerald-300 transition-colors duration-300">Ethical AI</span>
-          </h1>
+        {/* Main Content */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 min-h-screen relative z-10 flex flex-col justify-center">
+          <div className="text-center">
+            {/* Context Button */}
+            <div className="mb-6">
+              <button className="px-4 py-2 bg-zinc-800 text-white text-sm font-medium rounded-full border border-zinc-700 hover:bg-zinc-700 transition-colors">
+                Welcome to JIDI Institute
+              </button>
               </div>
             
-            {/* Right Side - Content */}
-            <div className="space-y-6 sm:space-y-8 pt-8 sm:pt-12 lg:pt-24 lg:mt-0 text-center sm:text-left animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-              <p className="text-base sm:text-lg text-neutral-300 leading-relaxed hover:text-neutral-200 transition-colors duration-300">
-                JIDI Institute for Artificial Intelligence & Data Research is an independent nonprofit based in Ghana.
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center justify-center">
-                <Button variant="secondary" size="sm" onClick={() => scrollToSection('#about')} className="w-fit hover:scale-105 transition-transform duration-200">
-                  Learn More
-                </Button>
-                <Button variant="outline" size="sm" onClick={() => scrollToSection('#contact')} className="w-fit hover:scale-105 transition-transform duration-200">
-                  Join Us
-            </Button>
-              </div>
-            </div>
-            
-              </div>
-            </div>
+            {/* Main Headline */}
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+              Empowering Africa Through<br />
+              <span className="text-emerald-400">Ethical AI</span><br />
+              & Data Science
+            </h1>
 
+            {/* Description */}
+            <p className="text-lg sm:text-xl text-neutral-300 max-w-3xl mx-auto leading-relaxed mb-8">
+              Traditional AI wasn&apos;t built for African contexts.<br />
+              We&apos;re building ethical AI solutions<br />
+              to change that.
+            </p>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button variant="secondary" size="lg" onClick={() => scrollToSection('#focus')} className="w-fit">
+                Learn More
+              </Button>
+              <Button variant="outline" size="lg" onClick={() => scrollToSection('#contact')} className="w-fit">
+                Join Us
+              </Button>
+            </div>
+            </div>
+            
+          {/* Africa Map - Bottom */}
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-4xl h-96 opacity-20">
+            <img 
+              src="/images/Africa map.png" 
+              alt="Africa AI Map"
+              className="w-full h-full object-contain"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                if (nextElement) {
+                  nextElement.style.display = 'flex';
+                }
+              }}
+            />
+            {/* Fallback placeholder */}
+            <div className="hidden w-full h-full items-center justify-center">
+              <div className="text-center">
+                <div className="w-24 h-24 bg-emerald-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-12 h-12 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-white mb-2">Africa AI Map</h3>
+                <p className="text-neutral-400 text-sm">Interactive visualization of AI initiatives across Africa</p>
+              </div>
+            </div>
+              </div>
+            </div>
       </section>
 
       {/* JIDI Platform Section */}
@@ -476,11 +490,27 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+              </div>
+          
+        {/* Curved Bottom */}
+        <div className="absolute bottom-0 left-0 w-full overflow-hidden">
+          <svg
+            className="relative block w-full h-16 sm:h-20 lg:h-24"
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className="fill-white"
+            ></path>
+          </svg>
         </div>
       </section>
 
       {/* Focus Section */}
-      <section className="py-16 sm:py-24 lg:py-32 bg-black">
+      <section className="py-16 sm:py-24 lg:py-32 bg-black" id="focus">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16 lg:mb-20">
             <h2 className="text-emerald-400 text-sm font-medium tracking-wider uppercase mb-4">Our Focus</h2>
