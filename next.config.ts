@@ -6,8 +6,9 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/JIDI' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/JIDI' : '',
+  // Remove basePath and assetPrefix for now to test
+  // assetPrefix: process.env.NODE_ENV === 'production' ? '/JIDI' : '',
+  // basePath: process.env.NODE_ENV === 'production' ? '/JIDI' : '',
 };
 
 export default nextConfig;
