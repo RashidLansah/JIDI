@@ -21,14 +21,18 @@ const Header: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-xl supports-[backdrop-filter]:bg-zinc-950/60">
-      <div className="container mx-auto px-6">
-        <div className="flex h-20 items-center justify-between">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="flex h-16 sm:h-20 items-center justify-between">
           <div className="flex items-center">
-            <div className="flex items-center space-x-3">
-              <div className="h-10 w-10 rounded-xl bg-emerald-600 flex items-center justify-center">
-                <span className="text-white font-bold text-lg">J</span>
+            <div className="flex items-center space-x-2 sm:space-x-3">
+              <div className="h-8 w-8 sm:h-10 sm:w-10 rounded-xl overflow-hidden flex items-center justify-center">
+                <img 
+                  src="/images/logo.jpeg" 
+                  alt="JIDI Logo" 
+                  className="h-full w-full object-contain"
+                />
               </div>
-              <span className="text-2xl font-bold text-white">JIDI</span>
+              <span className="text-xl sm:text-2xl font-bold text-white">JIDI</span>
             </div>
           </div>
 
@@ -45,18 +49,18 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
-          <div className="flex items-center space-x-6">
-            <Button onClick={() => scrollToSection('#contact')} size="sm">
+          <div className="flex items-center space-x-3 sm:space-x-6">
+            <Button onClick={() => scrollToSection('#contact')} size="sm" className="hidden sm:inline-flex">
               Join Us
             </Button>
 
             {/* Mobile menu button */}
             <button
-              className="inline-flex items-center justify-center p-3 text-zinc-400 hover:text-white md:hidden rounded-xl hover:bg-zinc-800 transition-colors"
+              className="inline-flex items-center justify-center p-2 sm:p-3 text-zinc-400 hover:text-white md:hidden rounded-xl hover:bg-zinc-800 transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               <svg
-                className="h-6 w-6"
+                className="h-5 w-5 sm:h-6 sm:w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -75,7 +79,7 @@ const Header: React.FC = () => {
         {isMobileMenuOpen && (
           <div className="fixed inset-0 z-50 md:hidden">
             <div className="fixed inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)} />
-            <div className="fixed inset-y-0 right-0 w-full max-w-sm bg-zinc-900 p-8 shadow-2xl border-l border-zinc-800">
+            <div className="fixed inset-y-0 right-0 w-full max-w-sm bg-zinc-900 p-6 sm:p-8 shadow-2xl border-l border-zinc-800">
               <div className="flex flex-col space-y-6">
                 {navItems.map((item) => (
                   <button

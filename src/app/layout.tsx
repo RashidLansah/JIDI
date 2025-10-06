@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: "JIDI Institute — Ethical AI Education & Research",
   description: "Empowering Africa through Ethical AI. JIDI Institute for Artificial Intelligence & Data Research — independent nonprofit building Africa's AI future.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/images/logo.jpeg",
+    shortcut: "/images/logo.jpeg",
+    apple: "/images/logo.jpeg",
   },
   keywords: ["AI", "Artificial Intelligence", "Data Science", "Africa", "Ghana", "Education", "Research", "Ethical AI", "Machine Learning"],
   authors: [{ name: "JIDI Institute" }],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "JIDI Institute",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/logo.jpeg",
         width: 1200,
         height: 630,
         alt: "JIDI Institute - Empowering Africa through Ethical AI",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "JIDI Institute — Ethical AI Education & Research",
     description: "Empowering Africa through Ethical AI. Independent nonprofit building Africa's AI future.",
-    images: ["/og-image.jpg"],
+    images: ["/images/logo.jpeg"],
   },
   robots: {
     index: true,
