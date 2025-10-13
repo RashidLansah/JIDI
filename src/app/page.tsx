@@ -21,14 +21,14 @@ const InitiativesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-emerald-400 text-sm font-medium tracking-wider uppercase mb-4">Our Initiatives</h2>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8">Building inclusive AI communities</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 sm:mb-8">Empowering Through Education & Innovation</h1>
           <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Supporting women and underserved communities in AI through targeted programs and partnerships.
+            Building AI capacity and enabling organizations to harness the power of Artificial Intelligence.
           </p>
           </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-          {/* WAIDS Card */}
+          {/* AIFFI Card */}
           <div className="bg-zinc-900 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
             {/* Geometric Background Shapes */}
             <div className="absolute inset-0 opacity-10">
@@ -40,40 +40,48 @@ const InitiativesSection = () => {
             </div>
 
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">Women in AI & Data Science (WAIDS)</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">AI Foundations for Future Innovators (AIFFI)</h3>
               <p className="text-base sm:text-lg text-neutral-300 mb-4 sm:mb-6 leading-relaxed">
-                A mentorship and leadership accelerator supporting women in tech.
+                An education and capacity-building program empowering Ghana&apos;s youth with foundational skills in Artificial Intelligence and Data Science.
               </p>
               <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Monthly mentorship sessions</span>
+                  <span className="text-sm sm:text-base text-neutral-300">AI literacy and coding workshops for senior high and university students</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2V6" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Industry partnerships</span>
+                  <span className="text-sm sm:text-base text-neutral-300">Teacher training and school mentorship programs</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Career development workshops</span>
+                  <span className="text-sm sm:text-base text-neutral-300">Real-world AI projects solving local challenges</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="text-sm sm:text-base text-neutral-300">Partnerships with universities, government, and industry</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* AID Communities Card */}
+          {/* AI4B Card */}
           <div className="bg-zinc-900 rounded-2xl p-6 sm:p-8 relative overflow-hidden">
             {/* Geometric Background Shapes */}
             <div className="absolute inset-0 opacity-10">
@@ -85,37 +93,45 @@ const InitiativesSection = () => {
             </div>
 
             <div className="relative z-10">
-              <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">AID Communities</h3>
+              <h3 className="text-xl sm:text-2xl font-bold text-emerald-400 mb-3 sm:mb-4">AI Integration for Business (AI4B)</h3>
               <p className="text-base sm:text-lg text-neutral-300 mb-4 sm:mb-6 leading-relaxed">
-                Deploying AI tools in underserved areas, from flood prediction to crop disease detection.
+                A free advisory and implementation service helping organizations adopt Artificial Intelligence to enhance efficiency and innovation.
               </p>
               <div className="space-y-3 sm:space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Community-led AI projects</span>
+                  <span className="text-sm sm:text-base text-neutral-300">AI readiness assessments and system integration support</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Accessible training programs</span>
+                  <span className="text-sm sm:text-base text-neutral-300">Workflow automation and data-driven insights</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
                     <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <span className="text-sm sm:text-base text-neutral-300">Local problem-solving focus</span>
-          </div>
+                  <span className="text-sm sm:text-base text-neutral-300">Custom AI solutions for SMEs and startups</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-5 h-5 sm:w-6 sm:h-6 bg-emerald-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <svg className="w-3 h-3 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                  </div>
+                  <span className="text-sm sm:text-base text-neutral-300">Expert guidance on ethical and responsible AI adoption</span>
+                </div>
               </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>
