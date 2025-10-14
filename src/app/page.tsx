@@ -711,8 +711,8 @@ export default function HomePage() {
           blurb="JIDI's comprehensive bootcamp program enabled rapid AI skill development for students in Tamale, reducing learning time from months to weeks. By delivering hands-on machine learning projects and industry mentorship, the program empowered faster career transitions and strengthened Ghana's AI talent pipeline."
           ctaLabel="Coming Soon"
           ctaHref="#"
-          imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1280&h=720&fit=crop&auto=format&q=75"
-          imageAlt="Students learning AI at JIDI bootcamp"
+          imageSrc="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1280&h=720&fit=crop&auto=format&q=75"
+          imageAlt="AI education and technology"
         />
         
         {/* Second Case Study */}
@@ -721,8 +721,8 @@ export default function HomePage() {
           blurb="Working with universities and industry partners, JIDI's WAIDS program increased female participation in AI by 150%, enabling expanded opportunities for women in tech across Africa while accelerating career advancement and improving gender diversity in the AI workforce."
           ctaLabel="Coming Soon"
           ctaHref="#"
-          imageSrc="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1280&h=720&fit=crop&auto=format&q=75"
-          imageAlt="Women working on AI projects"
+          imageSrc="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1280&h=720&fit=crop&auto=format&q=75"
+          imageAlt="AI and data science technology"
         />
         </div>
       </section>
