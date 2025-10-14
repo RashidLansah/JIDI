@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CaseStudySplit from '@/components/CaseStudySplit';
@@ -273,12 +274,12 @@ export default function HomePage() {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button variant="secondary" size="lg" onClick={() => scrollToSection('#focus')} className="w-fit">
-                Learn More
-              </Button>
+                  Learn More
+                </Button>
               <Button variant="outline" size="lg" onClick={() => scrollToSection('#contact')} className="w-fit">
-                Join Us
-              </Button>
-            </div>
+                  Join Us
+            </Button>
+              </div>
             </div>
             
           {/* Africa Map - Bottom */}
@@ -599,7 +600,7 @@ export default function HomePage() {
         <InitiativesSection />
 
       {/* News Section */}
-      <section className="py-16 sm:py-24 lg:py-32 bg-zinc-950">
+      <section className="py-16 sm:py-24 lg:py-32 bg-zinc-950" id="news">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16 lg:mb-20">
             <h2 className="text-emerald-400 text-sm font-medium tracking-wider uppercase mb-4">Stay Informed</h2>
@@ -610,53 +611,77 @@ export default function HomePage() {
         </div>
         
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
-              <CardContent className="p-6 sm:p-8">
-                <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6"></div>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-xs font-medium text-emerald-400 bg-emerald-400/10 px-2 sm:px-3 py-1 rounded-full">Research</span>
-                    <span className="text-xs text-gray-400">Dec 15, 2024</span>
+            <Link href="/articles/ai-policy-framework-africa" className="group">
+              <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors h-full">
+                <CardContent className="p-6 sm:p-8">
+                  <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6 overflow-hidden">
+                    <img 
+                      src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop&auto=format&q=75"
+                      alt="AI and Gen Z Financial Systems"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">New AI Policy Framework for Africa Released</h3>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Our comprehensive policy recommendations for ethical AI governance across African nations.
+                  <div className="space-y-3 sm:space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-xs font-medium text-emerald-400 bg-emerald-400/10 px-2 sm:px-3 py-1 rounded-full">Research</span>
+                      <span className="text-xs text-gray-400">Jan 10, 2025</span>
+                    </div>
+                    <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">AI and Gen Z: Rethinking Africa&apos;s Financial Systems</h3>
+                    <p className="text-sm text-gray-300 leading-relaxed">
+                      How AI policy, demographic change, and financial innovation converge to create opportunities for Africa&apos;s digital native generation.
                   </p>
                 </div>
               </CardContent>
             </Card>
+            </Link>
             
-            <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
-              <CardContent className="p-6 sm:p-8">
-                <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6"></div>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-2 sm:px-3 py-1 rounded-full">Community</span>
-                    <span className="text-xs text-gray-400">Dec 10, 2024</span>
+            <Link href="/articles/waids-bootcamp-graduates" className="group">
+              <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors h-full">
+                <CardContent className="p-6 sm:p-8">
+                  <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6 overflow-hidden">
+                    <img 
+                      src="https://images.unsplash.com/photo-1639322537228-f710d846310a?w=800&h=400&fit=crop&auto=format&q=75"
+                      alt="AI Governance in Africa"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">WAIDS Bootcamp Graduates 50 Women</h3>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Celebrating the success of our latest cohort of women in AI and data science.
+                  <div className="space-y-3 sm:space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-2 sm:px-3 py-1 rounded-full">Policy</span>
+                      <span className="text-xs text-gray-400">Jan 8, 2025</span>
+                    </div>
+                    <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">AI Governance in Africa: How Thoughtful Policy Can Unlock Innovation</h3>
+                    <p className="text-sm text-gray-300 leading-relaxed">
+                      How thoughtful policy can unlock innovation while safeguarding society across the African continent.
                   </p>
                 </div>
               </CardContent>
             </Card>
+            </Link>
             
-            <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors">
-              <CardContent className="p-6 sm:p-8">
-                <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6"></div>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-xs font-medium text-purple-400 bg-purple-400/10 px-2 sm:px-3 py-1 rounded-full">Partnership</span>
-                    <span className="text-xs text-gray-400">Dec 5, 2024</span>
+            <Link href="/articles/university-partnerships-announced" className="group">
+              <Card className="bg-gray-800 border-gray-700 hover:bg-gray-750 transition-colors h-full">
+                <CardContent className="p-6 sm:p-8">
+                  <div className="w-full h-40 sm:h-48 bg-gray-700 rounded-lg mb-4 sm:mb-6 overflow-hidden">
+                    <img 
+                      src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop&auto=format&q=75"
+                      alt="Africa's Trillion-Dollar Opportunity"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-white leading-snug">New University Partnerships Announced</h3>
-                  <p className="text-sm text-gray-300 leading-relaxed">
-                    Expanding our network with leading African universities for collaborative research.
+                  <div className="space-y-3 sm:space-y-4">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-xs font-medium text-purple-400 bg-purple-400/10 px-2 sm:px-3 py-1 rounded-full">Innovation</span>
+                      <span className="text-xs text-gray-400">Jan 5, 2025</span>
+                    </div>
+                    <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">Africa&apos;s Trillion-Dollar Opportunity: Learning from Asia&apos;s Data Revolution</h3>
+                    <p className="text-sm text-gray-300 leading-relaxed">
+                      How Africa can harness data infrastructure to unlock a trillion-dollar healthcare opportunity, inspired by Asia&apos;s digital transformation.
                   </p>
                 </div>
               </CardContent>
             </Card>
+            </Link>
           </div>
         </div>
       </section>
