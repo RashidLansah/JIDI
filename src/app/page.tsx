@@ -276,9 +276,6 @@ export default function HomePage() {
               <Button variant="secondary" size="lg" onClick={() => scrollToSection('#focus')} className="w-fit">
                   Learn More
                 </Button>
-              <Button variant="outline" size="lg" onClick={() => scrollToSection('#contact')} className="w-fit">
-                  Join Us
-            </Button>
               </div>
             </div>
             
