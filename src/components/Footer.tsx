@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
             <h3 className="font-semibold text-white mb-3 sm:mb-4 text-sm sm:text-base">Connect</h3>
             <div className="space-y-2">
               <a
-                href="https://linkedin.com/company/jidi-institute"
+                href="https://www.linkedin.com/company/institute-for-ai-data-science-research/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-xs sm:text-sm text-slate-400 hover:text-white transition-colors"
@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-slate-700 text-center text-xs sm:text-sm text-slate-400">
-          © 2024 JIDI Institute. All rights reserved.
+          © 2025 JIDI Institute. All rights reserved.
         </div>
       </div>
     </footer>

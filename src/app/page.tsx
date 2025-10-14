@@ -624,7 +624,7 @@ export default function HomePage() {
                   <div className="space-y-3 sm:space-y-4">
                     <div className="flex items-center space-x-2">
                       <span className="text-xs font-medium text-emerald-400 bg-emerald-400/10 px-2 sm:px-3 py-1 rounded-full">Research</span>
-                      <span className="text-xs text-gray-400">Jan 10, 2025</span>
+                      <span className="text-xs text-gray-400">Oct 15, 2025</span>
                     </div>
                     <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">AI and Gen Z: Rethinking Africa&apos;s Financial Systems</h3>
                     <p className="text-sm text-gray-300 leading-relaxed">
@@ -648,7 +648,7 @@ export default function HomePage() {
                   <div className="space-y-3 sm:space-y-4">
                     <div className="flex items-center space-x-2">
                       <span className="text-xs font-medium text-blue-400 bg-blue-400/10 px-2 sm:px-3 py-1 rounded-full">Policy</span>
-                      <span className="text-xs text-gray-400">Jan 8, 2025</span>
+                      <span className="text-xs text-gray-400">Oct 15, 2025</span>
                     </div>
                     <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">AI Governance in Africa: How Thoughtful Policy Can Unlock Innovation</h3>
                     <p className="text-sm text-gray-300 leading-relaxed">
@@ -672,7 +672,7 @@ export default function HomePage() {
                   <div className="space-y-3 sm:space-y-4">
                     <div className="flex items-center space-x-2">
                       <span className="text-xs font-medium text-purple-400 bg-purple-400/10 px-2 sm:px-3 py-1 rounded-full">Innovation</span>
-                      <span className="text-xs text-gray-400">Jan 5, 2025</span>
+                      <span className="text-xs text-gray-400">Oct 15, 2025</span>
                     </div>
                     <h3 className="text-lg sm:text-xl font-bold text-white leading-snug group-hover:text-emerald-400 transition-colors">Africa&apos;s Trillion-Dollar Opportunity: Learning from Asia&apos;s Data Revolution</h3>
                     <p className="text-sm text-gray-300 leading-relaxed">
